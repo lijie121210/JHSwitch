@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18A9A6401CD38C4B00046DBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A9A63F1CD38C4B00046DBF /* AppDelegate.swift */; };
+		18A9A6421CD38C4B00046DBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A9A6411CD38C4B00046DBF /* ViewController.swift */; };
+		18A9A6451CD38C4B00046DBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A9A6431CD38C4B00046DBF /* Main.storyboard */; };
+		18A9A6471CD38C4B00046DBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A9A6461CD38C4B00046DBF /* Assets.xcassets */; };
+		18A9A64A1CD38C4B00046DBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A9A6481CD38C4B00046DBF /* LaunchScreen.storyboard */; };
+		18A9A6551CD38C4B00046DBF /* JHSwitchExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A9A6541CD38C4B00046DBF /* JHSwitchExampleTests.swift */; };
+		18A9A6601CD38C4B00046DBF /* JHSwitchExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A9A65F1CD38C4B00046DBF /* JHSwitchExampleUITests.swift */; };
+		18A9A6831CD38E9800046DBF /* JHSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A9A6801CD38E9800046DBF /* JHSwitch.swift */; };
+		18A9A6841CD38E9800046DBF /* JHThumb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A9A6811CD38E9800046DBF /* JHThumb.swift */; };
+		18A9A6851CD38E9800046DBF /* JHTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A9A6821CD38E9800046DBF /* JHTrack.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18A9A6511CD38C4B00046DBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A9A6341CD38C4B00046DBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A9A63B1CD38C4B00046DBF;
+			remoteInfo = JHSwitchExample;
+		};
+		18A9A65C1CD38C4B00046DBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A9A6341CD38C4B00046DBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A9A63B1CD38C4B00046DBF;
+			remoteInfo = JHSwitchExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18A9A63C1CD38C4B00046DBF /* JHSwitchExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JHSwitchExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A9A63F1CD38C4B00046DBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18A9A6411CD38C4B00046DBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18A9A6441CD38C4B00046DBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18A9A6461CD38C4B00046DBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18A9A6491CD38C4B00046DBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18A9A64B1CD38C4B00046DBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A9A6501CD38C4B00046DBF /* JHSwitchExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JHSwitchExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A9A6541CD38C4B00046DBF /* JHSwitchExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHSwitchExampleTests.swift; sourceTree = "<group>"; };
+		18A9A6561CD38C4B00046DBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A9A65B1CD38C4B00046DBF /* JHSwitchExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JHSwitchExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A9A65F1CD38C4B00046DBF /* JHSwitchExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHSwitchExampleUITests.swift; sourceTree = "<group>"; };
+		18A9A6611CD38C4B00046DBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A9A6801CD38E9800046DBF /* JHSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHSwitch.swift; sourceTree = "<group>"; };
+		18A9A6811CD38E9800046DBF /* JHThumb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHThumb.swift; sourceTree = "<group>"; };
+		18A9A6821CD38E9800046DBF /* JHTrack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHTrack.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18A9A6391CD38C4B00046DBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A9A64D1CD38C4B00046DBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A9A6581CD38C4B00046DBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18A9A6331CD38C4B00046DBF = {
+			isa = PBXGroup;
+			children = (
+				18A9A67F1CD38E9800046DBF /* Classes */,
+				18A9A63E1CD38C4B00046DBF /* JHSwitchExample */,
+				18A9A6531CD38C4B00046DBF /* JHSwitchExampleTests */,
+				18A9A65E1CD38C4B00046DBF /* JHSwitchExampleUITests */,
+				18A9A63D1CD38C4B00046DBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18A9A63D1CD38C4B00046DBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18A9A63C1CD38C4B00046DBF /* JHSwitchExample.app */,
+				18A9A6501CD38C4B00046DBF /* JHSwitchExampleTests.xctest */,
+				18A9A65B1CD38C4B00046DBF /* JHSwitchExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18A9A63E1CD38C4B00046DBF /* JHSwitchExample */ = {
+			isa = PBXGroup;
+			children = (
+				18A9A63F1CD38C4B00046DBF /* AppDelegate.swift */,
+				18A9A6411CD38C4B00046DBF /* ViewController.swift */,
+				18A9A6431CD38C4B00046DBF /* Main.storyboard */,
+				18A9A6461CD38C4B00046DBF /* Assets.xcassets */,
+				18A9A6481CD38C4B00046DBF /* LaunchScreen.storyboard */,
+				18A9A64B1CD38C4B00046DBF /* Info.plist */,
+			);
+			path = JHSwitchExample;
+			sourceTree = "<group>";
+		};
+		18A9A6531CD38C4B00046DBF /* JHSwitchExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				18A9A6541CD38C4B00046DBF /* JHSwitchExampleTests.swift */,
+				18A9A6561CD38C4B00046DBF /* Info.plist */,
+			);
+			path = JHSwitchExampleTests;
+			sourceTree = "<group>";
+		};
+		18A9A65E1CD38C4B00046DBF /* JHSwitchExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18A9A65F1CD38C4B00046DBF /* JHSwitchExampleUITests.swift */,
+				18A9A6611CD38C4B00046DBF /* Info.plist */,
+			);
+			path = JHSwitchExampleUITests;
+			sourceTree = "<group>";
+		};
+		18A9A67F1CD38E9800046DBF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				18A9A6801CD38E9800046DBF /* JHSwitch.swift */,
+				18A9A6811CD38E9800046DBF /* JHThumb.swift */,
+				18A9A6821CD38E9800046DBF /* JHTrack.swift */,
+			);
+			name = Classes;
+			path = ../Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18A9A63B1CD38C4B00046DBF /* JHSwitchExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A9A6641CD38C4B00046DBF /* Build configuration list for PBXNativeTarget "JHSwitchExample" */;
+			buildPhases = (
+				18A9A6381CD38C4B00046DBF /* Sources */,
+				18A9A6391CD38C4B00046DBF /* Frameworks */,
+				18A9A63A1CD38C4B00046DBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JHSwitchExample;
+			productName = JHSwitchExample;
+			productReference = 18A9A63C1CD38C4B00046DBF /* JHSwitchExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18A9A64F1CD38C4B00046DBF /* JHSwitchExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A9A6671CD38C4B00046DBF /* Build configuration list for PBXNativeTarget "JHSwitchExampleTests" */;
+			buildPhases = (
+				18A9A64C1CD38C4B00046DBF /* Sources */,
+				18A9A64D1CD38C4B00046DBF /* Frameworks */,
+				18A9A64E1CD38C4B00046DBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A9A6521CD38C4B00046DBF /* PBXTargetDependency */,
+			);
+			name = JHSwitchExampleTests;
+			productName = JHSwitchExampleTests;
+			productReference = 18A9A6501CD38C4B00046DBF /* JHSwitchExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18A9A65A1CD38C4B00046DBF /* JHSwitchExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A9A66A1CD38C4B00046DBF /* Build configuration list for PBXNativeTarget "JHSwitchExampleUITests" */;
+			buildPhases = (
+				18A9A6571CD38C4B00046DBF /* Sources */,
+				18A9A6581CD38C4B00046DBF /* Frameworks */,
+				18A9A6591CD38C4B00046DBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A9A65D1CD38C4B00046DBF /* PBXTargetDependency */,
+			);
+			name = JHSwitchExampleUITests;
+			productName = JHSwitchExampleUITests;
+			productReference = 18A9A65B1CD38C4B00046DBF /* JHSwitchExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18A9A6341CD38C4B00046DBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = HuatengIOT;
+				TargetAttributes = {
+					18A9A63B1CD38C4B00046DBF = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					18A9A64F1CD38C4B00046DBF = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 18A9A63B1CD38C4B00046DBF;
+					};
+					18A9A65A1CD38C4B00046DBF = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 18A9A63B1CD38C4B00046DBF;
+					};
+				};
+			};
+			buildConfigurationList = 18A9A6371CD38C4B00046DBF /* Build configuration list for PBXProject "JHSwitchExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18A9A6331CD38C4B00046DBF;
+			productRefGroup = 18A9A63D1CD38C4B00046DBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18A9A63B1CD38C4B00046DBF /* JHSwitchExample */,
+				18A9A64F1CD38C4B00046DBF /* JHSwitchExampleTests */,
+				18A9A65A1CD38C4B00046DBF /* JHSwitchExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18A9A63A1CD38C4B00046DBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A9A64A1CD38C4B00046DBF /* LaunchScreen.storyboard in Resources */,
+				18A9A6471CD38C4B00046DBF /* Assets.xcassets in Resources */,
+				18A9A6451CD38C4B00046DBF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A9A64E1CD38C4B00046DBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A9A6591CD38C4B00046DBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18A9A6381CD38C4B00046DBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A9A6831CD38E9800046DBF /* JHSwitch.swift in Sources */,
+				18A9A6851CD38E9800046DBF /* JHTrack.swift in Sources */,
+				18A9A6421CD38C4B00046DBF /* ViewController.swift in Sources */,
+				18A9A6841CD38E9800046DBF /* JHThumb.swift in Sources */,
+				18A9A6401CD38C4B00046DBF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A9A64C1CD38C4B00046DBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A9A6551CD38C4B00046DBF /* JHSwitchExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A9A6571CD38C4B00046DBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A9A6601CD38C4B00046DBF /* JHSwitchExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18A9A6521CD38C4B00046DBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A9A63B1CD38C4B00046DBF /* JHSwitchExample */;
+			targetProxy = 18A9A6511CD38C4B00046DBF /* PBXContainerItemProxy */;
+		};
+		18A9A65D1CD38C4B00046DBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A9A63B1CD38C4B00046DBF /* JHSwitchExample */;
+			targetProxy = 18A9A65C1CD38C4B00046DBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18A9A6431CD38C4B00046DBF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A9A6441CD38C4B00046DBF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18A9A6481CD38C4B00046DBF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A9A6491CD38C4B00046DBF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18A9A6621CD38C4B00046DBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18A9A6631CD38C4B00046DBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18A9A6651CD38C4B00046DBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JHSwitchExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huatengIOT.JHSwitchExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18A9A6661CD38C4B00046DBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JHSwitchExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huatengIOT.JHSwitchExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18A9A6681CD38C4B00046DBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JHSwitchExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huatengIOT.JHSwitchExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JHSwitchExample.app/JHSwitchExample";
+			};
+			name = Debug;
+		};
+		18A9A6691CD38C4B00046DBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JHSwitchExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huatengIOT.JHSwitchExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JHSwitchExample.app/JHSwitchExample";
+			};
+			name = Release;
+		};
+		18A9A66B1CD38C4B00046DBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JHSwitchExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huatengIOT.JHSwitchExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JHSwitchExample;
+			};
+			name = Debug;
+		};
+		18A9A66C1CD38C4B00046DBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JHSwitchExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huatengIOT.JHSwitchExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JHSwitchExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18A9A6371CD38C4B00046DBF /* Build configuration list for PBXProject "JHSwitchExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A9A6621CD38C4B00046DBF /* Debug */,
+				18A9A6631CD38C4B00046DBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A9A6641CD38C4B00046DBF /* Build configuration list for PBXNativeTarget "JHSwitchExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A9A6651CD38C4B00046DBF /* Debug */,
+				18A9A6661CD38C4B00046DBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18A9A6671CD38C4B00046DBF /* Build configuration list for PBXNativeTarget "JHSwitchExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A9A6681CD38C4B00046DBF /* Debug */,
+				18A9A6691CD38C4B00046DBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18A9A66A1CD38C4B00046DBF /* Build configuration list for PBXNativeTarget "JHSwitchExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A9A66B1CD38C4B00046DBF /* Debug */,
+				18A9A66C1CD38C4B00046DBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18A9A6341CD38C4B00046DBF /* Project object */;
+}

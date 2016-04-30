@@ -10,6 +10,9 @@
 		18A9A6101CD3039A00046DBF /* JHSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A9A60F1CD3039A00046DBF /* JHSwitch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18A9A6171CD3039A00046DBF /* JHSwitch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A9A60C1CD3039A00046DBF /* JHSwitch.framework */; };
 		18A9A61C1CD3039A00046DBF /* JHSwitchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A9A61B1CD3039A00046DBF /* JHSwitchTests.swift */; };
+		18A9A6291CD3043F00046DBF /* JHSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A9A6281CD3043F00046DBF /* JHSwitch.swift */; };
+		18A9A62B1CD3091500046DBF /* JHThumb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A9A62A1CD3091500046DBF /* JHThumb.swift */; };
+		18A9A62D1CD3200D00046DBF /* JHTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A9A62C1CD3200D00046DBF /* JHTrack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +32,9 @@
 		18A9A6161CD3039A00046DBF /* JHSwitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JHSwitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A9A61B1CD3039A00046DBF /* JHSwitchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHSwitchTests.swift; sourceTree = "<group>"; };
 		18A9A61D1CD3039A00046DBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A9A6281CD3043F00046DBF /* JHSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHSwitch.swift; sourceTree = "<group>"; };
+		18A9A62A1CD3091500046DBF /* JHThumb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHThumb.swift; sourceTree = "<group>"; };
+		18A9A62C1CD3200D00046DBF /* JHTrack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHTrack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,7 @@
 		18A9A6021CD3039A00046DBF = {
 			isa = PBXGroup;
 			children = (
+				18A9A6271CD303F900046DBF /* Classes */,
 				18A9A60E1CD3039A00046DBF /* JHSwitch */,
 				18A9A61A1CD3039A00046DBF /* JHSwitchTests */,
 				18A9A60D1CD3039A00046DBF /* Products */,
@@ -84,6 +91,16 @@
 				18A9A61D1CD3039A00046DBF /* Info.plist */,
 			);
 			path = JHSwitchTests;
+			sourceTree = "<group>";
+		};
+		18A9A6271CD303F900046DBF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				18A9A6281CD3043F00046DBF /* JHSwitch.swift */,
+				18A9A62A1CD3091500046DBF /* JHThumb.swift */,
+				18A9A62C1CD3200D00046DBF /* JHTrack.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +211,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A9A62D1CD3200D00046DBF /* JHTrack.swift in Sources */,
+				18A9A62B1CD3091500046DBF /* JHThumb.swift in Sources */,
+				18A9A6291CD3043F00046DBF /* JHSwitch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +330,7 @@
 		18A9A6211CD3039A00046DBF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -320,12 +341,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.huatengIOT.JHSwitch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		18A9A6221CD3039A00046DBF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
