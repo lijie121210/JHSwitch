@@ -1,2 +1,5 @@
 # JHSwitch
-A custom UISwitch like.
+
+A custom UISwitch.
+
+Learning From : https://github.com/KieranLafferty/KLSwitch
